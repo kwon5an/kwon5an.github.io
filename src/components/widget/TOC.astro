@@ -1,4 +1,4 @@
----
+
 import type { MarkdownHeading } from "astro";
 import { siteConfig } from "../../config";
 
@@ -30,7 +30,7 @@ const removeTailingHash = (text: string) => {
 let heading1Count = 1;
 
 const maxLevel = siteConfig.toc.depth;
----
+
 {isPostsRoute &&
 <table-of-contents class:list={[className, "group"]}>
     {headings.filter((heading) => heading.depth < minDepth + maxLevel).map((heading) =>

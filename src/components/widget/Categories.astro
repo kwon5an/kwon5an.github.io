@@ -1,4 +1,4 @@
----
+
 import I18nKey from "../../i18n/i18nKey";
 import { i18n } from "../../i18n/translation";
 import { getCategoryList } from "../../utils/content-utils";
@@ -18,7 +18,6 @@ interface Props {
 }
 const className = Astro.props.class;
 const style = Astro.props.style;
----
 
 <WidgetLayout name={i18n(I18nKey.categories)} id="categories" isCollapsed={isCollapsed} collapsedHeight={COLLAPSED_HEIGHT}
                 class={className} style={style}
