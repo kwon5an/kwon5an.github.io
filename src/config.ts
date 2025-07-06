@@ -1,5 +1,4 @@
 import type {
-	ExpressiveCodeConfig,
 	LicenseConfig,
 	NavBarConfig,
 	ProfileConfig,
@@ -81,10 +80,4 @@ export const licenseConfig: LicenseConfig = {
 	enable: true,
 	name: "CC BY-NC-SA 4.0",
 	url: "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-};
-
-export const expressiveCodeConfig: ExpressiveCodeConfig = {
-	// Note: Some styles (such as background color) are being overridden, see the astro.config.mjs file.
-	// Please select a dark theme, as this blog theme currently only supports dark background color
-	theme: "github-dark",
 };
