@@ -1,11 +1,11 @@
 ---
-title: test1
+title: test
 published: 2025-07-07
-description: '블로그 첫 번째 게시물'
+description: '테스트'
 image: ''
 tags: [테스트]
 category: ''
 draft: false 
 lang: ''
 ---
-테스트 123
+test test test
